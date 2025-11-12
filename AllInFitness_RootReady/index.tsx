@@ -352,7 +352,7 @@ export default function App() {
           </div>
         )}
 
-        {tab==="workouts" and (
+        {tab==="workouts" && (
           <div className="card">
             <div className="h1">Search Workouts</div>
             <input placeholder="Search by name, muscle, equipment…" value={wq} onChange={e=>setwq(e.target.value)} style={{marginTop:8}}/>
